@@ -60,3 +60,13 @@ nav a {
   gap: 10px;
   cursor: pointer;
 }
+
+/*goat section*/
+
+.goat-section {
+  background-image: url("./images/Group 14.png");
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
