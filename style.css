@@ -1,0 +1,62 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.pink {
+  color: #ff42a5;
+}
+
+.menu {
+  color: #3c354f;
+  font-size: 1.1rem;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 120px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo {
+  width: 86px;
+  height: 40px;
+}
+
+header p {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0b0223;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-follow-btn {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
