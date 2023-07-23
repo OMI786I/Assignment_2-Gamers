@@ -214,3 +214,36 @@ nav a {
 
   font-weight: 500;
 }
+
+/*Instantly section*/
+
+.Instantly-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  text-align: right;
+}
+
+.Instantly-section p,
+h2 {
+  text-align: right;
+}
+.Instantly-left {
+  width: 60%;
+}
+.Instantly-right {
+}
+.cowboy {
+  width: 60%;
+  height: 90%;
+}
+
+.talking-tom {
+  position: relative;
+  left: 115px;
+  top: 50px;
+  width: 30%;
+}
