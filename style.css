@@ -247,3 +247,69 @@ h2 {
   top: 50px;
   width: 30%;
 }
+
+/*Buttons sections*/
+
+.buttons-section {
+  margin-top: 100px;
+}
+
+.buttons-section .first-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+}
+.buttons-section .second-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 63%;
+  margin: auto;
+}
+
+.buttons-section .first-row button {
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 0px solid white;
+  transition: border 0.2s linear 0s;
+  cursor: pointer;
+}
+.buttons-section .second-row button {
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 0px solid white;
+  transition: border 0.2s linear 0s;
+  cursor: pointer;
+}
+.buttons-section .first-row button img {
+  width: 40px;
+}
+
+.buttons-section .second-row button img {
+  width: 40px;
+}
+
+.buttons-section .second-row {
+  margin-top: 20px;
+}
+
+.buttons-section .first-row button:hover {
+  border: 1px solid #ff42a5;
+  color: #ff42a5;
+}
+.buttons-section .second-row button:hover {
+  border: 1px solid #ff42a5;
+  color: #ff42a5;
+}
