@@ -1,8 +1,121 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 680px) {
+  /*header*/
+
+  header .nav-logo {
+    width: 40px;
+    height: 20px;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+
+  .menu {
+    font-size: 12px;
+  }
+  .nav-follow-btn {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
   header,
   nav {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  /*Goat section*/
+  .goat-title-1 {
+    font-size: 1rem;
+  }
+  .goat-title-2 {
+    font-size: 2rem;
+  }
+  .goat-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    letter-spacing: 0;
+  }
+  .left-goat {
+    padding: 50px 0px 0px 50px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+  }
+  .left-goat ul {
+    font-size: 11px;
+  }
+  .goat-section button {
+    font-size: 10px;
+    padding: 10px 17px;
+    display: flex;
+  }
+
+  .goat-button-container {
+    display: flex;
+  }
+  /*online games section*/
+  .online-games-container h1,
+  .funny-word {
+    font-size: 1.2rem;
+  }
+  .online-description {
+    font-size: 0.5rem;
+  }
+  .online-image-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .online-img-description {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  /*instantly section*/
+  .Instantly-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Instantly-left p {
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Instantly-left h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .Instantly-right .talking-tom {
+    left: 52px;
+  }
+}
+
+/*
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  header,
+  nav {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /*Goat section*/
+  /*.goat-title-1 {
+    font-size: 1rem;
+  }
+  .goat-title-2 {
+    font-size: 2rem;
+  }
+  .goat-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    letter-spacing: 0;
+  }
+  .left-goat {
+    padding: 30px 0px 0px 30px;
+  }
+
+  /*online games section*/
+ /* .online-games-container h1,
+  .funny-word {
+    font-size: 2rem;
   }
 }

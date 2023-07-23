@@ -59,7 +59,7 @@ nav a {
 }
 
 .nav-follow-btn {
-  border-radius: 8px;
+  border-radius: 4px;
   background: rgba(11, 2, 35, 0.1);
   padding: 10px 20px;
   border: 0;
@@ -71,16 +71,12 @@ nav a {
 
 /*goat section*/
 .goat-section {
-  background: url(./images/Group\ 14.png);
-  background-position: left;
-  background-size: contain;
-  background-repeat: repeat-y;
   display: flex;
   justify-content: space-around;
 }
 
 .goat-img {
-  width: 100%;
+  width: 260px;
   height: 100%;
   object-fit: contain;
 }
@@ -92,8 +88,12 @@ nav a {
 }
 .left-goat {
   padding: 100px 0px 0 100px;
-  height: 100%;
+  height: 400px;
   width: 50%;
+  background: url(./images/Group\ 14.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 .goat-title-1 {
@@ -134,7 +134,7 @@ nav a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  font-size: 48px;
+  font-size: 3rem;
 
   font-weight: 700;
 }
@@ -243,7 +243,7 @@ h2 {
 
 .talking-tom {
   position: relative;
-  left: 115px;
+  left: 71px;
   top: 50px;
   width: 30%;
 }
