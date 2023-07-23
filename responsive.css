@@ -53,6 +53,11 @@
   .goat-button-container {
     display: flex;
   }
+
+  .goat-img{
+    width: 180%;
+    margin-left: -40px;
+  }
   /*online games section*/
   .online-games-container h1,
   .funny-word {
