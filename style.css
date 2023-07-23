@@ -313,3 +313,62 @@ h2 {
   border: 1px solid #ff42a5;
   color: #ff42a5;
 }
+
+/*footer section starts here*/
+
+footer {
+  background-color: #0b0223;
+  margin-top: 50px;
+  padding-top: 80px;
+  height: 80vh;
+}
+
+footer > .footer-row-1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  align-items: center;
+}
+
+footer .footer-row-1 h3 {
+  font-size: 2.4rem;
+}
+
+footer > .footer-row-2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+footer .footer-row-2 ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  cursor: pointer;
+}
+
+.footer-row-3 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-row-4 {
+  margin-top: 50px;
+}
+
+footer .footer-row-4 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  cursor: pointer;
+}
+footer .footer-row-4 ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
