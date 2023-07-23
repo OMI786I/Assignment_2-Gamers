@@ -167,7 +167,7 @@ nav a {
 .online-image-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
+  gap: 10px;
 }
 
 .img-container {
@@ -205,4 +205,12 @@ nav a {
 }
 .img-container:hover .overlay {
   opacity: 1;
+}
+
+.online-img-description {
+  color: #534c64;
+  margin-top: 5px;
+  font-size: 1rem;
+
+  font-weight: 500;
 }
