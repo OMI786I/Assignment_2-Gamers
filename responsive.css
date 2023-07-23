@@ -54,7 +54,7 @@
     display: flex;
   }
 
-  .goat-img{
+  .goat-img {
     width: 180%;
     margin-left: -40px;
   }
@@ -92,42 +92,60 @@
   .Instantly-right .talking-tom {
     left: 52px;
   }
- 
-}
-
-/*buttons section*/
-
-
-
-
-
-/*
-@media screen and (min-width: 401px) and (max-width: 768px) {
-  header,
-  nav {
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  /*buttons section*/
+  .buttons-section button,
+  img {
+    width: 15px;
+    font-size: 8px;
   }
-  /*Goat section*/
-  /*.goat-title-1 {
-    font-size: 1rem;
+  .buttons-section .first-row {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
   }
-  .goat-title-2 {
-    font-size: 2rem;
-  }
-  .goat-section {
-    flex-direction: column-reverse;
-    align-items: center;
-    letter-spacing: 0;
-  }
-  .left-goat {
-    padding: 30px 0px 0px 30px;
+  .buttons-section .second-row {
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin-left: 0;
   }
 
-  /*online games section*/
- /* .online-games-container h1,
-  .funny-word {
-    font-size: 2rem;
+  /*footer section*/
+
+  footer .footer-row-2 ul {
+    display: grid;
+    grid-template-columns: repeat(3, 20px);
+  }
+  footer .footer-row-2 ul li {
+    font-size: 9px;
+  }
+  footer .footer-row-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 30px;
+  }
+  footer .footer-row-3 i {
+    font-size: 20px;
+  }
+  footer .footer-row-3 img {
+    width: 20px;
+  }
+  footer .footer-row-4 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    margin-bottom: 30px;
+  }
+  footer .footer-row-4 ul li a {
+    font-size: 12px;
+  }
+  .footer-logo {
+    width: 65px;
+  }
+
+  .footer-rights {
+    width: 250px;
+  }
+  .footer-row-5 {
+    justify-content: center;
+    font-size: 7px;
   }
 }
