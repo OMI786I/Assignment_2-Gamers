@@ -95,18 +95,23 @@
   /*buttons section*/
   .buttons-section button,
   img {
-    width: 15px;
-    font-size: 8px;
+    font-size: 6px;
   }
   .buttons-section .first-row {
-    display: grid;
     grid-template-columns: repeat(3, 100px);
     gap: 10px;
+    width: 100%;
+  }
+
+  .buttons-section .first-row button {
+    padding: 5px;
+    width: 100%;
   }
   .buttons-section .second-row {
     grid-template-columns: repeat(3, 100px);
     gap: 10px;
     margin-left: 0;
+    width: 100%;
   }
 
   /*footer section*/
@@ -135,7 +140,7 @@
     margin-bottom: 30px;
   }
   footer .footer-row-4 ul li a {
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer-logo {
     width: 65px;
@@ -146,6 +151,60 @@
   }
   .footer-row-5 {
     justify-content: center;
+    font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 991px) {
+  .Instantly-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Instantly-left p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Instantly-left h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .buttons-section .first-row {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
+  .buttons-section .second-row {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer .footer-row-2 ul {
+    display: grid;
+    grid-template-columns: repeat(3, 20px);
+  }
+  footer .footer-row-2 ul li {
+    font-size: 9px;
+  }
+  footer .footer-row-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 30px;
+  }
+
+  footer .footer-row-4 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    margin-bottom: 30px;
+  }
+  footer .footer-row-4 ul li a {
+    font-size: 10px;
+  }
+  .footer-row-5 {
     font-size: 7px;
   }
 }
