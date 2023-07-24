@@ -343,8 +343,11 @@ footer .footer-row-2 ul {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 60px;
-  cursor: pointer;
+
   padding: 10px;
+}
+footer .footer-row-2 ul li {
+  cursor: pointer;
 }
 
 .footer-row-3 {
@@ -383,4 +386,5 @@ footer .footer-row-4 ul li a {
 
 .foooter-svg-img {
   width: 32px;
+  cursor: pointer;
 }
